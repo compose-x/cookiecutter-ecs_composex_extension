@@ -1,0 +1,12 @@
+version: "3.8"
+
+x-{{ cookiecutter.module_name }}:
+  Resource01:
+    Properties: {}        # Add properties appropriately
+    Settings: {}          # Add settings appropriately
+    Services: {}          # Add services appropriately
+
+  Resource02:
+    Lookup: {}            # Add lookup appropriately
+    Settings: {}          # Add settings appropriately
+    Services: {}          # Add services appropriately

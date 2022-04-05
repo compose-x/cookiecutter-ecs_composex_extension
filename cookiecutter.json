@@ -1,0 +1,13 @@
+{
+  "full_name": "John Preston",
+  "email": "john@compose-x.io",
+  "github_username": "johnpreston",
+  "github_org": "{{ cookiecutter.github_username }}",
+  "extension_name": "x-new_extension",
+  "module_name": "{{ cookiecutter.extension_name | replace('x-', '') }}",
+  "resource_class": "{{ cookiecutter.module_name.title() | replace('_', '')}}",
+  "project_slug": "ecs_composex_{{ cookiecutter.module_name }}",
+  "project_short_description": "{{ cookiecutter.module_name }} - Module for ECS Compose-X",
+  "pypi_username": "{{ cookiecutter.github_username }}",
+  "version": "0.0.1"
+}
