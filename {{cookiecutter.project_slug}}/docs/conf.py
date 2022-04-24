@@ -90,10 +90,8 @@ extensions += [
     "sphinx.ext.todo",
     "sphinx.ext.viewcode",
     "sphinx.ext.autodoc",
-    "sphinx_sitemap",
 ]
 
-sitemap_locales = ["en"]
 html_theme = "sphinx_rtd_theme"
 autosummary_generate = True
 autoclass_content = "class"
