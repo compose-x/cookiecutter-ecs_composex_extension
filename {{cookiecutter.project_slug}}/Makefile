@@ -84,8 +84,3 @@ dist: clean ## builds source and wheel package
 
 install: clean conform ## install the package to the active Python's site-packages
 	pip install . --use-pep517 #--use-feature=in-tree-build
-
-conform	: ## Conform to a standard of coding syntax
-	isort --profile black ecs_composex
-	black ecs_composex tests
-	find ecs_composex -name "*.json" -type f  -exec sed -i '1s/^\xEF\xBB\xBF//' {} +
